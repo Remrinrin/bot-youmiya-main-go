@@ -1,4 +1,3 @@
-# GoFrame Template For SingleRepo
+# bot-youmiya-main-go
 
-Quick Start: 
-- https://goframe.org/quick
+- goframe
