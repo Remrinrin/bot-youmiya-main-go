@@ -10,6 +10,8 @@ import (
 	"github.com/Remrinrin/bot-youmiya-main-go/internal/controller/hello"
 	"github.com/Remrinrin/bot-youmiya-main-go/internal/controller/onebot"
 	"github.com/Remrinrin/bot-youmiya-main-go/internal/middleware"
+
+	_ "github.com/gogf/gf/contrib/drivers/pgsql/v2"
 )
 
 var (
