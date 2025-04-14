@@ -4,17 +4,22 @@ go 1.22
 
 toolchain go1.23.3
 
-require github.com/gogf/gf/v2 v2.9.0
+require (
+	github.com/fumiama/terasu v0.0.0-20250409134005-3ac40e382e6c
+	github.com/gogf/gf/contrib/drivers/pgsql/v2 v2.9.0
+	github.com/gogf/gf/v2 v2.9.0
+)
 
 require (
 	github.com/BurntSushi/toml v1.4.0 // indirect
+	github.com/FloatTech/ttl v0.0.0-20230307105452-d6f7b2b647d1 // indirect
+	github.com/RomiChan/syncx v0.0.0-20240418144900-b7402ffdebc7 // indirect
 	github.com/clbanning/mxj/v2 v2.7.0 // indirect
 	github.com/emirpasic/gods v1.18.1 // indirect
 	github.com/fatih/color v1.18.0 // indirect
 	github.com/fsnotify/fsnotify v1.7.0 // indirect
 	github.com/go-logr/logr v1.4.2 // indirect
 	github.com/go-logr/stdr v1.2.2 // indirect
-	github.com/gogf/gf/contrib/drivers/pgsql/v2 v2.9.0 // indirect
 	github.com/google/uuid v1.6.0 // indirect
 	github.com/gorilla/websocket v1.5.3 // indirect
 	github.com/grokify/html-strip-tags-go v0.1.0 // indirect

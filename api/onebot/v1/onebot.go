@@ -4,6 +4,11 @@ import (
 	"github.com/gogf/gf/v2/frame/g"
 )
 
+const (
+	MsgTypePrivate = "private"
+	MsgTypeGroup   = "group"
+)
+
 // ReportReq OneBot 上报请求
 type ReportReq struct {
 	g.Meta `path:"/onebot/report" tags:"OneBot" method:"post" summary:"OneBot 事件上报"`
